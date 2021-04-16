@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/76be54988d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon -->
+    <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+    <link rel="shortcut icon" href="./images/ball.png" type="image/png" />
+    <title>Stripe DropDown</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <section class="modal fade" id="modal-setup">
+      <div class="modal-dialog">
+        <div class="modal-content text-capitalize">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Submenu -->
+    <aside class="submenu fade text-capitalize"></aside>
+
+    <!-- NavBar -->
+    <nav class="navbar container">
+      <article class="navbar-brand">
+        <img src="./images/logo.svg" alt="" />
+      </article>
+      <ul class="navbar-nav navbar-expand-md font-weight-bold">
+        <li class="nav-item py-2 px-4">
+          <a href="" class="nav-link">Products</a>
+        </li>
+        <li class="nav-item py-2 px-4">
+          <a href="" class="nav-link">Developers</a>
+        </li>
+        <li class="nav-item py-2 px-4">
+          <a href="" class="nav-link">Company</a>
+        </li>
+      </ul>
+      <button class="btn btn-dark px-3 sign-in">Sign In</button>
+      <button
+        class="btn btn-dark px-3 nav-btn"
+        data-toggle="modal"
+        data-target="#modal-setup"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="container my-5" id="hero">
+      <article class="row my-2 justify-content-between">
+        <div class="details text-left col-8 my-5 align-self-center">
+          <h1 class="intro-title my-5 font-weight-bold">
+            Payments infrastructure <br />
+            for the internet
+          </h1>
+          <p class="description-text my-3 pr-5">
+            Millions of companies of all sizes—from startups to Fortune 500s—use
+            Stripe’s software and APIs to accept payments, send payouts, and
+            manage their businesses online.
+          </p>
+          <button class="btn btn-dark my-2">Start now</button>
+        </div>
+        <img class="col-3.5 phoneImg" src="./images/phone.svg" alt="" />
+      </article>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h3 class="disclaimer font-weight-light text-center">
+        Stripe styled Hover DropDown navbar.
+      </h3>
+      <article class="d-flex justify-content-center">
+        <a class="links" target="_blank" href="https://github.com/Kashin98"
+          ><i class="fab fa-github"></i>
+        </a>
+        <a
+          class="links"
+          target="_blank"
+          href="https://www.linkedin.com/in/karan-kumar-445304155/"
+          ><i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          class="links"
+          target="_blank"
+          href="https://www.instagram.com/_kashin98/"
+          ><i class="fab fa-instagram"></i>
+        </a>
+      </article>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- js -->
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
