@@ -18,8 +18,11 @@ body {
 /* Navbar */
 .nav-link {
   font-family: var(--mainfont);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
   color: aliceblue;
+  background: none;
+  border: none;
 }
 
 .btn {
@@ -71,7 +74,7 @@ body {
   display: none;
   padding: 2rem;
   border-radius: 20px;
-  width: 30vw;
+  width: 35vw;
 }
 .submenu::before {
   content: "";
